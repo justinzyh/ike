@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@mipmap/ic_onebit_home"
+        android:title="我的房间"/>
+    <item
+        android:id="@+id/menu_talk"
+        android:icon="@mipmap/ic_iask_question"
+        android:title="您的良言"/>
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@mipmap/ic_share_btn"
+        android:title="分享好友"/>
+    <item
+        android:id="@+id/menu_us"
+        android:icon="@mipmap/ic_girl_service"
+        android:title="关于我们"/>
+</menu>

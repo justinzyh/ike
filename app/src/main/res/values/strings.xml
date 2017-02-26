@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IKE</string>
+    <!--drawlayout-->
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+    <string name="city">城市</string>
+    <string name="province">省份</string>
+    <string name="today_wea">今日天气</string>
+    <string name="temperature">气温:</string>
+    <string name="today_wea_live">今日天气实况</string>
+    <string name="wind">风力:</string>
+    <string name="humidity">湿度:</string>
+    <string name="air_quality">空气质量:</string>
+    <string name="uv_radiation">紫外线强度:</string>
+    <string name="city_str">城</string>
+    <string name="sweet_heart">今日小贴士</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

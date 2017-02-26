@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.justinzyh.film.mvp.ui.movie.FilmActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_film"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/linearlayout_design_toolbar"/>
+
+
+
+        <include layout="@layout/linear_horiz_item"/>
+
+        <GridView
+            android:id="@+id/gridview_film"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple1"
+            android:numColumns="2"/>
+
+        <include layout="@layout/linear_horiz_item"/>
+
+        <WebView
+            android:id="@+id/webview_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_button_film"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+              android:background="@color/grey3"
+              android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/fab_icon_margin"
+        android:layout_weight="1"
+        android:text="人物介绍"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/fab_icon_margin"
+        android:src="@mipmap/ic_arrow_down"/>
+</LinearLayout>

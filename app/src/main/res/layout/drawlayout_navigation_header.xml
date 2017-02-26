@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/bg_left_image"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/Circle_ImageView_left"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/left_listview_margintop"
+        android:orientation="horizontal">
+
+        <com.justinzyh.film.mvp.utils.custom_view.CircleImageView
+            android:id="@+id/left_atvar_imageview"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/left_icon_margin_right"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/image1"
+            app:border_color="@color/grey"
+            app:border_width="2dp"/>
+
+        <TextView
+            android:id="@+id/left_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="justinzyh"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/left_sign_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Dream need not too polite! ‍‍"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <com.justinzyh.film.mvp.utils.custom_view.VerticalRollingTextView
+            android:id="@+id/left_vertical_rolling_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/left_listview_margintop"
+            android:text="跑马灯"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+</LinearLayout>

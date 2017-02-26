@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_left_item_listview"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_listview_margintop"
+    android:descendantFocusability="blocksDescendants"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:orientation="horizontal"
+    tools:context=".mvp.ui.main.ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/item_left_image"
+        android:layout_width="@dimen/left_icon_size"
+        android:layout_height="@dimen/left_icon_size"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/left_icon_margin_right"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/item_left_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="justin"
+        android:textColor="@color/grey"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/fab_icon_margin"
+        android:src="@mipmap/ic_chevron_right"/>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/purple">
+
+    <ImageView
+        android:id="@+id/img_weather_back_toolbar"
+        android:layout_width="45.0dip"
+        android:layout_height="45.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@mipmap/ic_chevron_left"/>
+
+    <ImageView
+        android:id="@+id/separator"
+        android:layout_width="1.0dip"
+        android:layout_height="40dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/img_weather_back_toolbar"
+        android:background="@color/toolbar_separator"/>
+
+    <EditText
+        android:id="@+id/et_search_city"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/separator"
+        android:background="@drawable/rectangle_shape_et"
+        android:drawableLeft="@mipmap/ic_search_btn"
+        android:drawablePadding="3dp"
+        android:maxLines="1"/>
+
+
+    <Button
+        android:id="@+id/bt_weather_check"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/fab_icon_margin"
+        android:layout_toRightOf="@+id/et_search_city"
+        android:background="@drawable/rectangle_shape"
+        android:text="查询"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/tv_weather_city"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/fab_icon_margin"
+        android:background="@drawable/round_btn_bg"
+        android:text="城"
+        android:textColor="@color/white"
+        android:textSize="24dp"/>
+
+</RelativeLayout>

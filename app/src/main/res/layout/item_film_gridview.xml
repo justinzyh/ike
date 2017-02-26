@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_film_gridview"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="@dimen/gridview_margin_left"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/fab_icon_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_film_title"
+            android:text="movie"
+            style="@style/style_film_tv_gridview"/>
+
+        <TextView
+            android:id="@+id/tv_film_introduce"
+            style="@style/style_film_tv_gridview"
+            android:text="movie"/>
+
+        <TextView
+            android:id="@+id/tv_film_leader"
+            style="@style/style_film_tv_gridview"
+            android:text="movie"/>
+
+        <TextView
+            android:id="@+id/tv_film_director"
+            style="@style/style_film_tv_gridview"
+            android:text="movie"/>
+
+        <TextView
+            android:id="@+id/tv_film_category"
+            style="@style/style_film_tv_gridview"
+            android:text="movie"/>
+
+        <TextView
+            android:id="@+id/tv_film_score"
+            style="@style/style_film_tv_gridview"
+            android:text="movie"/>
+
+        <Button
+            android:id="@+id/tv_film_discover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="move"/>
+    </LinearLayout>
+</LinearLayout>
